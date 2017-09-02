@@ -15,5 +15,19 @@
     "rollup-plugin-typescript": "^0.8.1",
     "tslint": "^5.6.0",
     "typescript": "^2.4.2"
-  }
+  },
+  "main": "index.js",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markis/stattleship.git"
+  },
+  "keywords": [
+    "stattleship"
+  ],
+  "author": "Markis Taylor <m@rkis.cc>",
+  "bugs": {
+    "url": "https://github.com/markis/stattleship/issues"
+  },
+  "homepage": "https://github.com/markis/stattleship#readme"
 }
