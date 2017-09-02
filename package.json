@@ -6,7 +6,8 @@
   "scripts": {
     "build": "npx tsc && npm run build:script && npm run build:cleanup",
     "build:script": "npx rollup -c",
-    "build:cleanup": "rm -rf ./tmp/"
+    "build:cleanup": "rm -rf ./tmp/",
+    "prepublish": "npm run build"
   },
   "devDependencies": {
     "@types/node": "^8.0.25",

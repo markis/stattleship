@@ -65,7 +65,7 @@ export abstract class BaseClient {
     return names.join('-')
                 .toLowerCase()
                 .replace(/\W/g, '-')
-                .replace(/[-]+/, '-')
+                .replace(/[-]+/g, '-')
   }
 
   /**
