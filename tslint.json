@@ -1,0 +1,8 @@
+{
+  "extends": "tslint:recommended",
+  "rules": {
+    "class-name": [true, "never-prefix"],
+    "quotemark": [true, "single", "avoid-escape"],
+    "arrow-parens": false
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "lib": [ "es6" ],
+    "module": "es2015",
+    "rootDir": "./src",
+    "outDir": "./tmp",
+    "declaration": true,
+    "sourceMap": true
+  },
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": [
+    "./node_modules"
+  ]
+}

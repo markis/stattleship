@@ -1,0 +1,47 @@
+import { Subject } from './Subject';
+
+export interface Feat {
+  id: string;
+  created_at: Date;
+  updated_at: Date;
+  accomplished_vs: string;
+  accomplishment: string;
+  actual: number;
+  category: string;
+  description: string;
+  game_id: string;
+  game_slug: string;
+  humanized_stat_type: string;
+  level: string;
+  level_numeric: number;
+  name: string;
+  on: string;
+  opponent_abbrev: string;
+  opponent_location: string;
+  opponent_name: string;
+  opponent_nickname: string;
+  opponent_slug: string;
+  player_id: string;
+  player_slug: string;
+  sentence: string;
+  sentence_on: string;
+  sentence_vs: string;
+  sentence_vs_on: string;
+  subject_id: string;
+  subject_name: string;
+  subject_team_name: string;
+  subject_team_abbrev: string;
+  subject_team_location: string;
+  subject_team_nickname: string;
+  subject_team_slug: string;
+  subject_type: string;
+  subject_slug: string;
+  team_id: string;
+  team_slug: string;
+  title: string;
+  verb: string;
+  vs: string;
+  league_id: string;
+  season_id: string;
+  subject: Subject;
+}
