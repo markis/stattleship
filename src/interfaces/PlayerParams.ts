@@ -6,4 +6,8 @@ export interface PlayerParams extends BaseParams {
    */
   team_id: string;
   birth_date: string;
+  /**
+   * Player slug such as nfl-tom-brady
+   */
+  player_id?: string;
 }
