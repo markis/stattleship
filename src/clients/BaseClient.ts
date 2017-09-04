@@ -64,6 +64,7 @@ export abstract class BaseClient {
     names.unshift(this.league);
     return names.join('-')
                 .toLowerCase()
+                .replace(/jr\.$/g, '') // jr. messes up queries
                 .replace(/\W/g, '-')
                 .replace(/[-]+/g, '-')
   }
